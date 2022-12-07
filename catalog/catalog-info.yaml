@@ -11,7 +11,7 @@ metadata:
     - tanzu
     - rest
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-spring-petclinic'
 spec:
   type: service
   lifecycle: experimental
